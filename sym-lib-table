@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "stm32-mapple_platform(2xpn1x8+2xpn1x6)")(type Legacy)(uri "${KIPRJMOD}/stm32-mapple_platform(2xpn1x8+2xpn1x6).lib")(options "")(descr ""))
+  (lib (name bh16s)(type Legacy)(uri ${KIPRJMOD}/bh16s.lib)(options "")(descr ""))
+  (lib (name PCA9546A)(type Legacy)(uri ${KIPRJMOD}/PCA9546A.lib)(options "")(descr ""))
+)
