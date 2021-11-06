@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "fan controller"
 Date "2021-10-31"
-Rev "1"
+Rev "2"
 Comp "alexth4ef9"
 Comment1 "Copyright alexth4f9 2021"
 Comment2 "licensed under CERN-OHL-S v2"
@@ -2387,15 +2387,6 @@ Connection ~ 6150 8400
 Wire Wire Line
 	4950 9300 4950 9350
 Wire Wire Line
-	4450 8800 4350 8800
-Wire Wire Line
-	4350 8750 4350 8800
-Connection ~ 4350 8800
-Wire Wire Line
-	4350 8800 4100 8800
-Wire Wire Line
-	4450 9000 4100 9000
-Wire Wire Line
 	5450 9000 5900 9000
 Wire Wire Line
 	5900 9000 5900 8750
@@ -2418,9 +2409,9 @@ Text Label 5650 8700 0    50   ~ 0
 D34
 Text Label 5650 8800 0    50   ~ 0
 D33
-Text Label 4100 8800 0    50   ~ 0
-D32
 Text Label 4100 9000 0    50   ~ 0
+D32
+Text Label 4100 8800 0    50   ~ 0
 D31
 Wire Wire Line
 	2350 1300 2350 1150
@@ -2727,4 +2718,13 @@ F 3 "~" H 15750 10300 50  0001 C CNN
 $EndComp
 Text Notes 12600 850  0    50   ~ 0
 OLIMEXINO-STM32F3 modification: wire between VIN and PWR1 pin 2
+Wire Wire Line
+	4450 9000 4100 9000
+Wire Wire Line
+	4450 8800 4350 8800
+Wire Wire Line
+	4350 8750 4350 8800
+Connection ~ 4350 8800
+Wire Wire Line
+	4350 8800 4100 8800
 $EndSCHEMATC
