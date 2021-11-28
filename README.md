@@ -14,6 +14,13 @@ fan controller addon board for OLIMEXINO-STM32F3
 * 3 fans: populate J7, J9, J10
 * 2 fans, 1 pump: populate J8, J9, J10 and add R2
 
+## Errata
+
+|revision|errata|fixed revision|
+|--------|------|--------------|
+| 1      | D31/32 are swapped on U3 | 2 |
+| 1/2    | GND and +3V3 are swapped on J1/2/3/4 | 3 |
+
 ## Modification to OLIMEXINO-STM32F3:
 
 Connect VIN on PLATFORM1 to PWR1 pin 2
